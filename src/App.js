@@ -83,6 +83,63 @@ const questions = [
     answer:
       "When data is mapped into the component, use the piece of state that is set to an objects ID and apply a condition that matches the state's ID to the mapped object ID.",
   },
+  {
+    id: uuidv4(),
+    question: "Break down the process of thinking in react.",
+    answer:
+      "Break the UI into components and create a comoponent tree, create a static interface in React, think about the state (when to use it, what type of state & where to use it) and establish data flow (one-way data flow, child to parent or accessing a global state).",
+  },
+  {
+    id: uuidv4(),
+    question: "What is state management?",
+    answer:
+      "State management is deciding when to create piece of state, what types of state is necessay, where to place each piece of state and how data flows through the application.",
+  },
+  {
+    id: uuidv4(),
+    question: "What is local state?",
+    answer: "State that is only needed by one or few components",
+  },
+  {
+    id: uuidv4(),
+    question: "What is global state?",
+    answer:
+      "State that is accessible to every component in the entire application.",
+  },
+  {
+    id: uuidv4(),
+    question: "What libraries can apply global state?",
+    answer: "Context API & Redux",
+  },
+  {
+    id: uuidv4(),
+    question: "What is a derived state?",
+    answer: "State that is computed from existing state/props",
+  },
+  {
+    id: uuidv4(),
+    question: "When do we know when to use state?",
+    answer:
+      "If data changes and can re-render the component, then use state. Otherwise use a variable.",
+  },
+  {
+    id: uuidv4(),
+    question:
+      "If state is used only by one component, where should we place the state?",
+    answer: "Leave that state in the component.",
+  },
+  {
+    id: uuidv4(),
+    question:
+      "If the state needs to be used in child component, where should we place the state?",
+    answer: "Pass the state to child as a prop.",
+  },
+  {
+    id: uuidv4(),
+    question:
+      "If one or few sibling components need to use the state defined in a component, where should we place the state?",
+    answer: "Lift the state to the first common parent component.",
+  },
   // {
   //   id: uuidv4(),
   //   question: "",
