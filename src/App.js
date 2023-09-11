@@ -65,6 +65,24 @@ const questions = [
     answer:
       "Pass the callback() (onClick={callback}) in the event handler so it can point to the callback function. Passing a callback function as if it's being called (onClick={callback()}) will immediately call the function.",
   },
+  {
+    id: uuidv4(),
+    question: "What are 3 steps to using state?",
+    answer: "Define the state, use the state and update the state",
+  },
+  {
+    id: uuidv4(),
+    question:
+      "What's the best way to use to pass a function to an event listener?",
+    answer:
+      "Use an arrow function so that the function isn't immediately called.",
+  },
+  {
+    id: uuidv4(),
+    question: "Explain how you could use an objects ID in a component?",
+    answer:
+      "When data is mapped into the component, use the piece of state that is set to an objects ID and apply a condition that matches the state's ID to the mapped object ID.",
+  },
   // {
   //   id: uuidv4(),
   //   question: "",
